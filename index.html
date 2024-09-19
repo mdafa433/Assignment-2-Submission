@@ -6,17 +6,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Ucapan Happy Birthday</title>
 </head>
-<body>
-    <main class="flex justify-center m-20">
-        <div class="flex border-2 border-red-500 bg-white w-[40rem] h-auto shadow-2xl gap-4 p-4">
+<body class="h-screen w-screen overflow-hidden">
+    <!-- Video Background -->
+    <video class="absolute top-0 left-0 w-full h-full object-cover z-10" src="vidio/121983-724732202_large.mp4" autoplay muted loop></video>
+
+    <!-- Main Content -->
+    <main class="relative z-20 flex justify-center items-center h-full">
+        <div class="flex border-4 border-red-700 bg-white/90 w-[40rem] h-auto shadow-2xl gap-4 p-4 rounded-lg backdrop-blur-sm">
             <img class="w-60 h-auto rounded-lg" src="img.jpg" alt="ini gambar kue">
             <div class="flex flex-col">
-                <h1 class="capitalize text-gray-600 font-bold">Happy Birthday</h1>
-                <p class="capitalize text-gray-500 py-3">Dear Friend,</p>
-                <p class="text-gray-500 py-3">On this special day, I wanted to take a moment to celebrate you and all the wonderful qualities that make you so amazing. Your kindness, humor, and genuine heart bring so much joy to everyone around you.</p>
-                <p class="text-gray-500 py-3">Wishing you a birthday as bright and beautiful as you are. Here's to many more wonderful years ahead!</p>
-                <p class="text-gray-500 py-3">With lots of love and warm wishes,</p>
-                <p class="text-gray-500">[Your Name]</p>
+                <h1 class="capitalize font-bold transform bg-clip-text text-transparent bg-gradient-to-r from-blue-800 via-20% via-red-600 to-pink-500">
+                    Happy Birthday
+                </h1>
+                <p class="capitalize text-gray-700 py-3">Dear Friend,</p>
+                <p class="text-gray-700 py-3">On this special day, I wanted to take a moment to celebrate you and all the wonderful qualities that make you so amazing. Your kindness, humor, and genuine heart bring so much joy to everyone around you.</p>
+                <p class="text-gray-700 py-3">Wishing you a birthday as bright and beautiful as you are. Here's to many more wonderful years ahead!</p>
+                <p class="text-gray-700 py-3">With lots of love and warm wishes,</p>
+                <p class="text-gray-700">Muhammad Dafa Izul Haq</p>
             </div>
         </div>
     </main>
